@@ -19,7 +19,8 @@
             android:scaleType="centerInside"
             android:src="@drawable/back"
             android:layout_width="match_parent"
-            android:layout_height="90dp" />
+            android:layout_height="90dp"
+            android:contentDescription=""/>
 
         <ImageView
             android:id="@+id/iv_12"
@@ -143,11 +144,11 @@
 
         <ImageView
             android:id="@+id/iv_42"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/back"
-            android:layout_width="match_parent"
-            android:layout_height="90dp" />
+            android:src="@drawable/back" />
 
         <ImageView
             android:id="@+id/iv_43"
