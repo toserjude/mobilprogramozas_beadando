@@ -2,7 +2,6 @@ package com.example.lenovo.memorygame;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -10,13 +9,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
 public class SecondActivity extends AppCompatActivity {
-    // ArrayList<Drawable> images;
-    // ArrayList<ImageView> views;
 
     ImageView iv_11, iv_12, iv_13, iv_14,
             iv_21, iv_22, iv_23, iv_24,
@@ -538,27 +534,4 @@ public class SecondActivity extends AppCompatActivity {
             alertDialog.show();
         }
     }
-//    private void loadImages() {
-//        images = new ArrayList<>();
-//        images.add(getResources().getDrawable(R.drawable.a101));
-//        images.add(getResources().getDrawable(R.drawable.a102));
-//        images.add(getResources().getDrawable(R.drawable.a103));
-//        images.add(getResources().getDrawable(R.drawable.a104));
-//        images.add(getResources().getDrawable(R.drawable.a105));
-//        images.add(getResources().getDrawable(R.drawable.a106));
-//        images.add(getResources().getDrawable(R.drawable.a107));
-//        images.add(getResources().getDrawable(R.drawable.a108));
-//        images.add(getResources().getDrawable(R.drawable.a109));
-//        images.add(getResources().getDrawable(R.drawable.a110));
-//        images.add(getResources().getDrawable(R.drawable.a201));
-//        images.add(getResources().getDrawable(R.drawable.a202));
-//        images.add(getResources().getDrawable(R.drawable.a203));
-//        images.add(getResources().getDrawable(R.drawable.a204));
-//        images.add(getResources().getDrawable(R.drawable.a205));
-//        images.add(getResources().getDrawable(R.drawable.a206));
-//        images.add(getResources().getDrawable(R.drawable.a207));
-//        images.add(getResources().getDrawable(R.drawable.a208));
-//        images.add(getResources().getDrawable(R.drawable.a209));
-//        images.add(getResources().getDrawable(R.drawable.a210));
-//    }
 }
